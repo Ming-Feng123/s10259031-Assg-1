@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="login-head">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome! - JudoCraft</title>
+    <!-- To Add the icon in the tab area -->
+    <link rel="icon" type="image/x-icon" href="assets/images/judocraft_icon.png">
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <!-- To import FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="login-body">
+    <!-- Login Page Content -->
+    <div class="login-container">
+        <img src="assets/images/judocraft_logo.png" alt="Login/SignUp">
+        <!-- Left image and form section -->
+        <div class="form-wrapper">
+            <div class="form-content">
+                <h2 id="form-title">Login</h2>
+                <!-- Login Form -->
+                <div id="login-form" class="form-container active">
+                    <input type="email" class="form-input" placeholder="Email" />
+                    <input type="password" class="form-input" placeholder="Password" />
+                    <button class="form-button" id="login-btn">Login</button>
+                    <a href="#" class="toggle-link" id="toggle-to-signup">Don't have an account? Sign up</a>
+                </div>
+                <!-- Signup Form -->
+                <div id="signup-form" class="form-container">
+                    <input type="text" class="form-input" placeholder="Full Name" />
+                    <input type="email" class="form-input" placeholder="Email" />
+                    <input type="password" class="form-input" placeholder="Password" />
+                    <button class="form-button" id="signup-btn">Sign Up</button>
+                    <a href="#" class="toggle-link" id="toggle-to-login">Already have an account? Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <small>
+            Copyright © 2024 Ming Feng FED. All Rights Reserved.
+        </small>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/scripts/login.js"></script>
+</body>
+
+</html>

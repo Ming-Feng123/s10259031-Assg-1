@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - JudoCraft</title>
+    <!-- To Add the icon in the tab area -->
+    <link rel="icon" type="image/x-icon" href="assets/images/judocraft_icon.png">
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <!-- To import FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars" id="hamburger-icon"></i>
+            </div>
+            <div class="nav-logo">
+                <a href="index.html"><img src="assets/images/judocraft_logo.png"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div><a href="login.html" class="login">Login</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Us Section -->
+    <section class="section contactus">
+        <div class="container">
+            <!-- Left: Google Map -->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.953768330523!2d103.7759366!3d1.3330863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da107d8eb4e359%3A0x75d2e7ffdeeb0c43!2sNgee%20Ann%20Polytechnic!5e0!3m2!1sen!2ssg!4v1732964120855!5m2!1sen!2ssg"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Right: Contact Form -->
+            <div class="form">
+                <form id="contact-form" action="#" method="post">
+                    <h2>Contact Us</h2>
+
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+
+                    <!-- Phone Number Field -->
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number" pattern="\d*"
+                            required>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+
+                <!-- Success Message Modal (Initially hidden) -->
+                <div id="success-message-modal" style="display: none;">
+                    <div class="modal-content">
+                        <span id="close-modal" class="close-btn">&times;</span>
+                        <!-- Green tick icon from FontAwesome -->
+                        <div class="icon">
+                            <i class="fa-solid fa-check-circle"></i>
+                        </div>
+                        <p>Thanks for your reply! We will get back to you within 24 hours! :)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <small>
+            Copyright © 2024 Ming Feng FED. All Rights Reserved.
+        </small>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/scripts/script.js"></script>
+    <script src="assets/scripts/contactus.js"></script>
+</body>
+
+</html>
