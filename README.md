@@ -8,7 +8,15 @@ As a judoka myself in Singapore, i have had many instances where the Gi that i w
 * Product – allows user to click on product to see more about the product.
 * Contact page – allows user to send in any requests.
 * Filter – allows user to find products easier.
+# Feature left to implement
+* Log in Account - allows user to get an account to save personal info
+* Shopping Cart- allows user to checkout
+
 # Langauge used
 * HTML
 * CSS
 * JavaScript
+
+# Technology used
+* Visual Studio Code (used to write my codes)
+* Adobe Photoshop (used to edit some pictures in the website)
